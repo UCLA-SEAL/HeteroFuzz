@@ -11,6 +11,8 @@ sudo apt-get install gawk git wget tar bzip2 gcc automake autoconf \
     libhpdf-dev libc6-dev autotools-dev bison flex libtool libbz2-dev \
     libpython2.7-dev ghostscript libhpdf-dev libmpfrc++-dev libltdl-dev
 ```
+This tool is built on top of `afl` (https://lcamtuf.coredump.cx/afl/) and `heterorefactor`(https://github.com/heterorefactor/heterorefactor).
+
 
 To compile, instrument, and run the subjects, a *valid* Xilinx Vivado license is required to do FPGA synthesis and simulation. Please ensure Xilinx toolchain is in your `PATH` environment variable, and you can run `vivado` and `vivado_hls` in your terminal.
 
@@ -34,11 +36,6 @@ We basically follow the usage of AFL here: https://lcamtuf.coredump.cx/afl/READM
 - *log-samples*: this folder contains: (1) summarized reuslts when running our tool on the subject programs; and (2) sample outputs/logs/detected divergence behavior.
 
 
-To verify the functionality:
-1. Kernel-related input identification
-2. coverage feedback and accelerator feedback
-3. probabilistic mutations
-4. selective invocation
 
 
 
