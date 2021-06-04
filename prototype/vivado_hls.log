@@ -1,0 +1,30 @@
+
+****** Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source /home/.../Programs/Xilinx/Vivado/2018.3/scripts/vivado_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '...'
+INFO: [HLS 200-10] For user '...' on host '...' (Linux_x86_64 version 5.4.0-42-generic) on Mon Aug 17 12:44:18 PDT 2020
+INFO: [HLS 200-10] On os Pop!_OS 18.04 LTS
+INFO: [HLS 200-10] In directory '...'
+INFO: [HLS 200-10] Opening project '...'.
+INFO: [HLS 200-10] Adding design file 'sort.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file 'bubble.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file '0.dat' to the project
+INFO: [HLS 200-10] Opening solution '...'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xcvu9p-fsgd2104-3-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../bubble.cpp in release mode
+   Compiling ../../../../sort.cpp in release mode
+   Generating csim.exe
+haha!
+
+
+Begin sort!
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [Common 17-206] Exiting vivado_hls at Mon Aug 17 12:44:22 2020...

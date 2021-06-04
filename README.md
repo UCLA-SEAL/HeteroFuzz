@@ -1,1 +1,0 @@
-# heterofuzz-artifact

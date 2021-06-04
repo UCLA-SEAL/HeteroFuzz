@@ -1,0 +1,8 @@
+
+unique divergence
+  CPU correct but host+FPGA crash caused by offloading error
+  CPU correct but host divide-by-zero caused by FPGA overflow
+  CPU correct but wrong output caused by FPGA overflow
+  CPU correct but wrong output caused by invalid memory access at line 21
+  CPU correct but wrong output caused by invalid memory access at line 3
+  CPU correct but wrong output caused by loop unrolling
