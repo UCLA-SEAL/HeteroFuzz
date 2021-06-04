@@ -14,7 +14,7 @@ sudo apt-get install gawk git wget tar bzip2 gcc automake autoconf \
 
 To compile, instrument, and run the subjects, a *valid* Xilinx Vivado license is required to do FPGA synthesis and simulation. Please ensure Xilinx toolchain is in your `PATH` environment variable, and you can run `vivado` and `vivado_hls` in your terminal.
 
-Alternatively, we provide a running example with a downgraded version of HeteroFuzz without FPGA simulation. This can be used to verify the major functionalities of HeteroFuzz without Xilinx environments. Please follow the instructions below.
+Alternatively, we provide a running example with a downgraded version of HeteroFuzz without FPGA simulation. This can be used to verify the major functionalities of HeteroFuzz without Xilinx environments. Please follow the instructions in *prototype* folder.
 
 ## How to build the HeteroFuzz tool 
 ```
