@@ -54,7 +54,7 @@ We basically follow the usage of AFL here: https://lcamtuf.coredump.cx/afl/READM
 - *log-samples*: this folder contains: (1) summarized reuslts when running our tool on the subject programs; and (2) sample outputs/logs/detected divergence behavior.
 
 ## Video
-You can watch a FSE'21 presentation video [here](https://youtu.be/5lKTFfgdQlM)
+You can watch an FSE'21 presentation video [here](https://youtu.be/5lKTFfgdQlM)
 ## Alternative Package
 You can also find our research replication package at [Zenodo](https://zenodo.org/record/5146681#.YTEnzS2ZNaY).
 ## FAQ 
