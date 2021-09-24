@@ -12,6 +12,8 @@ If you encounter any problems, please open an issue or feel free to contact us:
 
 [Jiyuan Wang](http://web.cs.ucla.edu/~wangjiyuan): PhD student, wangjiyuan@cs.ucla.edu;
 
+[Miryung Kim](http://web.cs.ucla.edu/~miryung/): Professor at UCLA, miryung@cs.ucla.edu;
+
 ## How to cite 
 Please refer to our FSE'21 paper, [Fuzz Testing to Detect Platform Dependent Divergence for Heterogeneous Applications](http://web.cs.ucla.edu/~miryung/Publications/fse2021-heterofuzz.pdf) for more details. 
 ### Bibtex  
